@@ -7,12 +7,14 @@ specifiers:
   '@expo/webpack-config': ^0.17.2
   expo: ~47.0.9
   expo-image-picker: ~14.0.2
+  expo-media-library: ~15.0.0
   expo-status-bar: ~1.4.2
   react: 18.1.0
   react-dom: 18.1.0
   react-native: 0.70.5
   react-native-gesture-handler: ~2.8.0
   react-native-reanimated: ~2.12.0
+  react-native-view-shot: 3.4.0
   react-native-web: ~0.18.9
 
 dependencies:
@@ -20,12 +22,14 @@ dependencies:
   '@expo/webpack-config': 0.17.3_expo@47.0.10
   expo: 47.0.10_@babel+core@7.20.7
   expo-image-picker: 14.0.2_expo@47.0.10
+  expo-media-library: 15.0.0_expo@47.0.10
   expo-status-bar: 1.4.2
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   react-native: 0.70.5_22c6s2sn35anjkfcrnvbkhm4vi
   react-native-gesture-handler: 2.8.0_tj3nonr5gneraukzjkxpsiy7yu
   react-native-reanimated: 2.12.0_gnf36stq6nkgdw364s6hqjm37q
+  react-native-view-shot: 3.4.0_tj3nonr5gneraukzjkxpsiy7yu
   react-native-web: 0.18.10_ef5jwxihqo6n7gxfmzogljlgcm
 
 devDependencies:
@@ -3291,7 +3295,7 @@ packages:
       minipass-pipeline: 1.2.4
       mkdirp: 1.0.4
       p-map: 4.0.0
-      promise-inflight: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
       rimraf: 3.0.2
       ssri: 8.0.1
       tar: 6.1.13
@@ -4805,6 +4809,14 @@ packages:
 
   /expo-keep-awake/11.0.1_expo@47.0.10:
     resolution: {integrity: sha512-44ZjgLE4lnce2d40Pv8xsjMVc6R5GvgHOwZfkLYtGmgYG9TYrEJeEj5UfSeweXPL3pBFhXKfFU8xpGYMaHdP0A==}
+    peerDependencies:
+      expo: '*'
+    dependencies:
+      expo: 47.0.10_@babel+core@7.20.7
+    dev: false
+
+  /expo-media-library/15.0.0_expo@47.0.10:
+    resolution: {integrity: sha512-BO17VEElQHf2kK45Vuqm4QtutWsT5X4clO8DjTp2BUNvmY+JgOTKsjPs1LIQcNaaum64u/Gfp3V4HV2a6JnHJg==}
     peerDependencies:
       expo: '*'
     dependencies:
@@ -8531,15 +8543,6 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: false
 
-  /promise-inflight/1.0.1:
-    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
-    peerDependencies:
-      bluebird: '*'
-    peerDependenciesMeta:
-      bluebird:
-        optional: true
-    dev: false
-
   /promise-inflight/1.0.1_bluebird@3.7.2:
     resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
     peerDependencies:
@@ -8867,6 +8870,16 @@ packages:
       string-hash-64: 1.0.3
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /react-native-view-shot/3.4.0_tj3nonr5gneraukzjkxpsiy7yu:
+    resolution: {integrity: sha512-b0CcWJGO0xLCXRsstIYRUEg/UStrR7uujQV9jFHRIVyPfBH0gRplT7Vlgimr+PX+Xg+9/rCyIKPjqK1Knv8hxg==}
+    peerDependencies:
+      react: '*'
+      react-native: '*'
+    dependencies:
+      react: 18.1.0
+      react-native: 0.70.5_22c6s2sn35anjkfcrnvbkhm4vi
     dev: false
 
   /react-native-web/0.18.10_ef5jwxihqo6n7gxfmzogljlgcm:
