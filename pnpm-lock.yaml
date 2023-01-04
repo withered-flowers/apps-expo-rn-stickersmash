@@ -5,6 +5,7 @@ specifiers:
   '@babel/plugin-proposal-export-namespace-from': ^7.18.9
   '@expo/vector-icons': ^13.0.0
   '@expo/webpack-config': ^0.17.2
+  dom-to-image: ^2.6.0
   expo: ~47.0.9
   expo-image-picker: ~14.0.2
   expo-media-library: ~15.0.0
@@ -20,6 +21,7 @@ specifiers:
 dependencies:
   '@expo/vector-icons': 13.0.0
   '@expo/webpack-config': 0.17.3_expo@47.0.10
+  dom-to-image: 2.6.0
   expo: 47.0.10_@babel+core@7.20.7
   expo-image-picker: 14.0.2_expo@47.0.10
   expo-media-library: 15.0.0_expo@47.0.10
@@ -4382,6 +4384,10 @@ packages:
       domelementtype: 2.3.0
       domhandler: 4.3.1
       entities: 2.2.0
+    dev: false
+
+  /dom-to-image/2.6.0:
+    resolution: {integrity: sha512-Dt0QdaHmLpjURjU7Tnu3AgYSF2LuOmksSGsUcE6ItvJoCWTBEmiMXcqBdNSAm9+QbbwD7JMoVsuuKX6ZVQv1qA==}
     dev: false
 
   /domain-browser/1.2.0:
